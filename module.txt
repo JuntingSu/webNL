@@ -1,0 +1,14 @@
+//create a new room to play:
+//player_id is the host of this room
+{
+    type:"join"
+    player_id:1020
+}
+//enter a room that has existed:
+//player_id is the player who wants to join this room
+//room_identifier is unique and was auto created with the room,shown in the url
+{
+    type:"join"
+    player_id:1020
+    room_identifier:xxx
+}
